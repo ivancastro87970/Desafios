@@ -6,7 +6,7 @@ using namespace std;
 
 int main() 
 {
-    /* -- Se for por posição da lista --
+    /* -- Se for retirar a partir da posição na lista! --
     
     list <int> li = { 1,2,3,4,5,6,7,8,9,10};
 
@@ -19,7 +19,7 @@ int main()
         cout << i << endl;    //iteram as referencias da lista
     }*/
     
-    // -- Se for por nr a remover --
+    // -- Se for escolher o número a remover! --
     list <int> li = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
     for (list<int>::iterator it = li.begin(); it != li.end(); it++)
